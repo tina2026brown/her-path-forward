@@ -24,22 +24,17 @@ header {
 	padding: 25px;
 	text-align: center;
 }
-
 .logo h1 {
 	color: #79546d;
 	font-size: 35px;
 }
-
 .logo p {
 	color: #765d6c;
 }
-
 /* NAVIGATION */
-
 nav {
 	margin-top: 20px;
 }
-
 nav a {
 	color: #694c60;
 	text-decoration: none;
@@ -52,7 +47,6 @@ nav a:hover {
 }
 
 /* HERO SECTION */
-
 .hero {
 	background: linear-gradient(rgba(65, 43, 58, 0.45), rgba(65, 43, 58, 0.45)),
 		url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8")
@@ -65,7 +59,6 @@ nav a:hover {
 	text-align: center;
 	padding: 40px 20px;
 }
-
 .hero-content {
 	color: white;
 	max-width: 700px;
@@ -76,14 +69,11 @@ nav a:hover {
 	margin-bottom: 20px;
 	color: white;
 }
-
 .hero p {
 	font-size: 18px;
 	margin-bottom: 25px;
 }
-
 /* BUTTONS */
-
 .button {
 	display: inline-block;
 	background-color: #a97896;
@@ -95,11 +85,9 @@ nav a:hover {
 	border: none;
 	cursor: pointer;
 }
-
 .button:hover {
 	background-color: #805b74;
 }
-
 .light-button {
 	background-color: white;
 	color: #805b74;
@@ -108,31 +96,24 @@ nav a:hover {
 	background-color: #805b74;
 	color: white;
 }
-
 /* GENERAL SECTIONS */
-
 section {
 	padding: 60px 25px;
 	text-align: center;
 }
-
 section h2 {
 	color: #825d76;
 	font-size: 30px;
 	margin-bottom: 15px;
 }
-
 .welcome {
 	max-width: 900px;
 	margin: auto;
 }
-
 .section-background {
 	background-color: #f5eaf0;
 }
-
 /* SEARCH BOX */
-
 input {
 	width: 90%;
 	max-width: 450px;
@@ -142,9 +123,7 @@ input {
 	margin: 25px 0;
 	font-size: 16px;
 }
-
 /* CARDS */
-
 .card-container {
 	display: flex;
 	justify-content: center;
@@ -153,7 +132,6 @@ input {
 	margin: 35px auto;
 	max-width: 1200px;
 }
-
 .card {
 	background-color: white;
 	width: 280px;
@@ -163,7 +141,6 @@ input {
 	border-top: 5px solid #d5a8bf;
 	transition: 0.3s;
 }
-
 .card:hover {
 	transform: translateY(-5px);
 }
@@ -172,40 +149,33 @@ input {
 	color: #805b74;
 	margin-bottom: 15px;
 }
-
 .card p {
 	margin-bottom: 12px;
 }
-
 .meeting-card p {
 	padding-bottom: 12px;
 	margin-bottom: 12px;
 	border-bottom: 1px solid #e8d5e0;
 }
-
 .meeting-card p:last-child {
 	border-bottom: none;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
-
 .card a {
 	color: #a36d8b;
 	font-weight: bold;
 	text-decoration: none;
 }
-
 .card a:hover {
 	text-decoration: underline;
 }
-
 .small-note {
 	font-size: 13px;
 	margin-top: 20px;
+	text-align: center;
 }
-
 /* MAP */
-
 iframe {
 	max-width: 1100px;
 	border-radius: 12px;
@@ -218,51 +188,41 @@ iframe {
 	background-color: #ead5e1;
 	color: #694c60;
 }
-
 .inspiration p {
 	margin: 15px auto;
 	max-width: 650px;
 }
-
 .inspiration h3 {
 	margin-top: 20px;
 	color: #805b74;
 }
 
 /* FOOTER */
-
 footer {
 	background-color: #76566e;
 	color: white;
 	text-align: center;
 	padding: 35px 20px;
 }
-
 footer h2 {
 	color: white;
 	margin-bottom: 10px;
 }
-
 /* MOBILE RESPONSIVE DESIGN */
-
 @media (max-width: 600px) {
 	header h1 {
 		font-size: 28px;
 	}
-
 	nav a {
 		display: inline-block;
 		margin: 6px;
 	}
-
 	.hero h2 {
 		font-size: 30px;
 	}
-
 	.card {
 		width: 100%;
 	}
-
 	section {
 		padding: 40px 18px;
 	}
